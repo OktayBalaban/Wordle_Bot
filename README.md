@@ -1,16 +1,16 @@
-# 🧠 Wordle Bot
+# Wordle Bot
 
 This project is an **AI-powered Wordle solver** that interacts with a Wordle game in a web browser. It uses **vision-based state extraction** and a **language model-driven guessing strategy** to automatically play and solve the puzzle in real time.
 
-## ✨ Features
+## Features
 
-- 💡 **Multimodal agent**: Combines screen reading (via computer vision) and intelligent guessing (via Gemini LLM).
-- ⌨️ **Keyboard automation**: Types guesses directly into the browser using `pyautogui`.
-- 📊 **Word state analysis**: Parses the game board and updates internal state with color-coded feedback.
-- 🔁 **Auto-play mode**: Runs the game autonomously until solved or attempts are exhausted.
-- 🧩 **Modular design**: Easy to extend or plug in a different language model.
+- **Multimodal agent**: Combines screen reading (via computer vision) and intelligent guessing (via Gemini LLM).
+- ⌨**Keyboard automation**: Types guesses directly into the browser using `pyautogui`.
+- **Word state analysis**: Parses the game board and updates internal state with color-coded feedback.
+- **Auto-play mode**: Runs the game autonomously until solved or attempts are exhausted.
+- **Modular design**: Easy to extend or plug in a different language model.
 
-## 🛠 Requirements
+## Requirements
 
 - Python 3.8+
 - `pyautogui`
@@ -18,7 +18,7 @@ This project is an **AI-powered Wordle solver** that interacts with a Wordle gam
 - `gradio`
 - A valid **Gemini API key**
 
-## 🔐 LLM Setup (Gemini)
+## LLM Setup (Gemini)
 
 This project uses LLMs from Google by default.
 
@@ -31,7 +31,7 @@ GEMINI_API_KEY=your_gemini_api_key_here
 
 > ⚠️ If you wish to use another LLM provider, replace the `ask_gemini()` function in `llm.py` with your own implementation. You can define your own `ask_llm()` function with the same interface.
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone this repository.
 2. Set your keyboard layout to English.
