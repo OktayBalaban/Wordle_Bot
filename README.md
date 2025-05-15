@@ -5,7 +5,7 @@ This project is an **AI-powered Wordle solver** that interacts with a Wordle gam
 ## Features
 
 - **Multimodal agent**: Combines screen reading (via computer vision) and intelligent guessing (via Gemini LLM).
-- ⌨**Keyboard automation**: Types guesses directly into the browser using `pyautogui`.
+- **Keyboard automation**: Types guesses directly into the browser using `pyautogui`.
 - **Word state analysis**: Parses the game board and updates internal state with color-coded feedback.
 - **Auto-play mode**: Runs the game autonomously until solved or attempts are exhausted.
 - **Modular design**: Easy to extend or plug in a different language model.
